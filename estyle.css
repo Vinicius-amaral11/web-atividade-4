@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.principal-nav .menu {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    background-color: #208cff;
+    padding-top: 20px;
+    color: #ffffff;
+    overflow: auto;
+    list-style-type: none;
+}
+.principal-nav .menu a{
+    text-decoration: none;
+}
+.principal-nav .menu li{
+    display: block;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.principal-nav .menu li:hover{
+    background-color: #0a63c2;
+}
