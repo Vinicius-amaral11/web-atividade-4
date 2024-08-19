@@ -5,10 +5,36 @@
 }
 header{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     padding: 20px;
     background-color: rgb(0, 0, 0);
+}
+.h1-1{
+    width: 100%;
+    text-align: center;
+    color: rgb(12, 180, 12);
+    font-family: 'Rubik Mono One', monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.h1-2{
+    width: 100%;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.h2-1{
+    width: 100%;
+    margin-left: 13%;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.icone{
+    width: 50px;
+    height: 50px;
 }
 .principal-nav .menu {
     display: flex;
@@ -20,22 +46,50 @@ header{
 .principal-nav .menu a{
     text-decoration: none;
     padding: 10px 15px;
-    color: #797878;
+    color: rgb(12, 180, 12);
 }
 .principal-nav .menu li{
-    padding: 15px;
+    padding: 20px;
     font-size: 20px;
 }
 .principal-nav .menu li:hover{
     background-color: #ffffff;
     border-radius: 5px;
 }
-
+main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+main p{
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.centro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+.conteudo-lateral{
+   margin: 10px;
+   width: 30%;
+}
+.conteudo{
+    height: auto;
+    width: 100%;
+}
 footer{
     background-color: black;
-    color: #797878;
+    color: rgb(12, 180, 12);
     padding: 20px;
     text-align: center;
+    font-size: 20px;
 }
 footer ul{
     display: flex;
@@ -43,35 +97,18 @@ footer ul{
     align-items: center;
     list-style-type: none;
     padding: 0;
-    margin: 10px 0 0 0;
+    margin: 10px;
 }
 footer ul li{
     display: inline;
-    margin: 0 15px;
 }
 footer ul li a{
-    color: #706f6f;
+    color: rgb(12, 180, 12);
     text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 15px;
 }
 footer ul li a:hover{
     background-color: #ffffff;
     border-radius: 5px;
-}
-main{
-    display: flex; /* Ativa o Flexbox */
-    width: 100;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-}
-.centro{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 80%;
-    height: 100vh;
-    background-color: red;
-}
-.conteudo{
-   display: flex;
-   margin: 20px;
-   width: 10px;       
 }
