@@ -19,7 +19,7 @@ header{
     font-style: normal;
 }
 .h1-2{
-    width: 100%;
+    width: 95%;
     text-align: center;
     font-family: "Anton", sans-serif;
     font-weight: 400;
@@ -27,7 +27,7 @@ header{
 }
 .h2-1{
     width: 100%;
-    margin-left: 13%;
+    margin-left: 9%;
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -36,36 +36,47 @@ header{
     width: 50px;
     height: 50px;
 }
-.principal-nav .menu {
+.menu-lateral{
     display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.menu-lateral .menu-1{
     list-style-type: none;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
-}  
-.principal-nav .menu a{
+    width: 200px;
+    background-color: #000000;
+    padding: 20px;
+}
+.menu-lateral .menu-1 a{
     text-decoration: none;
     padding: 10px 15px;
     color: rgb(12, 180, 12);
 }
-.principal-nav .menu li{
-    padding: 20px;
-    font-size: 20px;
+.menu-lateral .menu-1 li{
+    padding: 10px;
+    font-size: 18px;
 }
-.principal-nav .menu li:hover{
+.menu-lateral .menu-1 li:hover{
     background-color: #ffffff;
     border-radius: 5px;
+}
+.h1-menu{
+    color:  rgb(12, 180, 12);
+    padding-right: 40px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 main{
     display: flex;
     width: 100%;
-    justify-content: center;
+    flex-direction: row-reverse;
 }
 main p{
     font-size: 18px;
     color: #555;
     max-width: 800px;
-    text-align: justify;
+    
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -74,11 +85,12 @@ main p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 80%;
+    width: 70%;
+    background-color: rgb(211, 209, 209);
 }
 .conteudo-lateral{
-   margin: 10px;
-   width: 30%;
+    margin: 20px;
+    width: 40%;
 }
 .conteudo{
     height: auto;
