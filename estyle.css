@@ -10,6 +10,68 @@ header{
     padding: 20px;
     background-color: rgb(0, 0, 0);
 }
+
+.icone{
+    width: 50px;
+    height: 50px;
+}
+.menu-lateral{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    font-family: "Aldrich", sans-serif;
+}
+.menu-lateral .menu-1{
+    list-style-type: none;
+    width: 200px;
+    background-color: #000000;
+    padding: 20px;
+}
+.menu-lateral .menu-1 a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: rgb(12, 180, 12);
+}
+.menu-lateral .menu-1 a li{
+    padding: 10px;
+    font-size: 18px;
+}
+.menu-lateral .menu-1  li:hover{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.h1-menu{
+    color:  rgb(12, 180, 12);
+    padding-right: 40px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.centro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    background-color: #c9c7c7;
+}
+.conteudo-lateral{
+    margin: 20px;
+    width: 45%;
+}
+.centro ul{
+    font-size: 18px;
+    color: #555;
+    max-width: 100%;
+    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.conteudo{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    height: auto;
+    width: 100%;
+}
 .h1-1{
     width: 100%;
     text-align: center;
@@ -32,41 +94,6 @@ header{
     font-weight: 400;
     font-style: normal;
 }
-.icone{
-    width: 50px;
-    height: 50px;
-}
-.menu-lateral{
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-}
-.menu-lateral .menu-1{
-    list-style-type: none;
-    width: 200px;
-    background-color: #000000;
-    padding: 20px;
-}
-.menu-lateral .menu-1 a{
-    text-decoration: none;
-    padding: 10px 15px;
-    color: rgb(12, 180, 12);
-}
-.menu-lateral .menu-1 li{
-    padding: 10px;
-    font-size: 18px;
-}
-.menu-lateral .menu-1 li:hover{
-    background-color: #ffffff;
-    border-radius: 5px;
-}
-.h1-menu{
-    color:  rgb(12, 180, 12);
-    padding-right: 40px;
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
 main{
     display: flex;
     width: 100%;
@@ -75,26 +102,10 @@ main{
 main p{
     font-size: 18px;
     color: #555;
-    max-width: 800px;
-    
+    max-width: 100%;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-.centro{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 70%;
-    background-color: rgb(211, 209, 209);
-}
-.conteudo-lateral{
-    margin: 20px;
-    width: 40%;
-}
-.conteudo{
-    height: auto;
-    width: 100%;
 }
 footer{
     background-color: black;
