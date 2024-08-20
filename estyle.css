@@ -44,8 +44,6 @@ header{
     color:  rgb(12, 180, 12);
     padding-right: 40px;
     font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 .centro{
     display: flex;
@@ -82,22 +80,16 @@ header{
     text-align: center;
     color: rgb(12, 180, 12);
     font-family: 'Rubik Mono One', monospace;
-    font-weight: 400;
-    font-style: normal;
 }
 .h1-2{
     width: 95%;
     text-align: center;
     font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 .h2-1{
     width: 100%;
     margin-left: 9%;
     font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 main{
     display: flex;
@@ -112,6 +104,21 @@ main p{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.rubik-mono-one-regular{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.anton-regular{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.aldrich-regular {
+    font-family: "Aldrich", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 footer{
     background-color: black;
     color: rgb(12, 180, 12);
