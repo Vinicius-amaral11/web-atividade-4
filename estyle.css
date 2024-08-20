@@ -66,6 +66,11 @@ header{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.centro p{
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .conteudo{
     word-wrap: break-word;
     overflow-wrap: break-word;
